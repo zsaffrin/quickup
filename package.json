@@ -1,6 +1,6 @@
 {
   "name": "quickup",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Basic CSS layout structure and utilities for rapid deployment",
   "main": "index.scss",
   "scripts": {
