@@ -1,0 +1,15 @@
+
+.di  { display: inline }
+.db  { display: block }
+.dib { display: inline-block }
+.dt  { display: table }
+.dtr { display: table-row }
+.dtc { display: table-cell }
+.dn  { display: none !important }
+.dh  {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}

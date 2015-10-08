@@ -1,0 +1,42 @@
+
+.fl { float: left }
+.fr { float: right }
+
+@for $i from 1 through $grid-columns {
+    .c#{$i} {
+        width: ($i/$grid-columns * 100%);
+    }
+}
+
+@media (min-width: #{$breakpoint-sm}) {
+    .sm-fl { float: left }
+    .sm-fr { float: right }
+
+    @for $i from 1 through $grid-columns {
+        .sm-c#{$i} {
+            width: ($i/$grid-columns * 100%);
+        }
+    }
+}
+
+@media (min-width: #{$breakpoint-md}) {
+    .md-fl { float: left }
+    .md-fr { float: right }
+
+    @for $i from 1 through $grid-columns {
+        .md-c#{$i} {
+            width: ($i/$grid-columns * 100%);
+        }
+    }
+}
+
+@media (min-width: #{$breakpoint-lg}) {
+    .lg-fl { float: left }
+    .lg-fr { float: right }
+
+    @for $i from 1 through $grid-columns {
+        .lg-c#{$i} {
+            width: ($i/$grid-columns * 100%);
+        }
+    }
+}

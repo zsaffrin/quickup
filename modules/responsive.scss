@@ -1,0 +1,11 @@
+
+.sm-show, .md-show, .lg-show { display: none !important }
+@media (min-width: #{$breakpoint-sm}) { .sm-show { display: block !important } }
+@media (min-width: #{$breakpoint-md}) { .md-show { display: block !important } }
+@media (min-width: #{$breakpoint-lg}) { .lg-show { display: block !important } }
+
+
+// Hide control hides elements at or above the given breakpoint size
+@media (min-width: #{$breakpoint-sm}) { .sm-hide { display: none !important } }
+@media (min-width: #{$breakpoint-md}) { .md-hide { display: none !important } }
+@media (min-width: #{$breakpoint-lg}) { .lg-hide { display: none !important } }

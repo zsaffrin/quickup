@@ -1,0 +1,22 @@
+
+// Font styles
+.italic    { font-style: italic }
+.underline { text-decoration: underline }
+.strike    { text-decoration: line-through }
+.caps      { text-transform: uppercase }
+.plain     { text-decoration: none }
+
+// Alignment
+.tl { text-align: left }
+.tr { text-align: right }
+.tc { text-align: center }
+.tj { text-align: justify }
+
+// Wrapping
+.nowrap { white-space: nowrap }
+
+// Font size adjustments
+.size-xs { font-size: 60% }
+.size-sm { font-size: 80% }
+.size-lg { font-size: 120% }
+.size-xl { font-size: 140% }

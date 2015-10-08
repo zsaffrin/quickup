@@ -1,0 +1,50 @@
+
+// *** VARIABLES *** 
+
+$grid-columns: 12;
+
+$breakpoint-sm: 40em;
+$breakpoint-md: 52em;
+$breakpoint-lg: 64em;
+
+$space-1: 0.5rem;
+$space-2: 1rem;
+$space-3: 2rem;
+$space-4: 4rem;
+
+
+// *** MODULES *** 
+
+// Cross-browser compatibility reset
+// Eric Meyer's CSS Reset v2.0
+// http://meyerweb.com/eric/tools/css/reset/
+@import "modules/reset";
+
+/*
+***************************************
+        Quickup Modules
+***************************************
+*/
+
+// Box-sizing normalization
+@import "modules/box-sizing";
+
+// Grid columns
+@import "modules/grid";
+
+// Whitespace
+@import "modules/margins";
+@import "modules/padding";
+
+// Layout
+@import "modules/clear";
+@import "modules/display";
+@import "modules/position";
+@import "modules/flex";
+
+// Responsive show/hide
+@import "modules/responsive";
+
+// Typography
+@import "modules/type";
+

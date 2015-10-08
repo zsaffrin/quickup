@@ -1,0 +1,50 @@
+
+/* PARENT */
+
+.flex { display: flex }
+@media (min-width: #{$breakpoint-sm}) { .sm-flex { display: flex } }
+@media (min-width: #{$breakpoint-md}) { .md-flex { display: flex } }
+@media (min-width: #{$breakpoint-lg}) { .lg-flex { display: flex } }
+
+// Orientation
+// 'row' is default
+.flex-column { flex-direction: column }
+
+// Vertical alignment
+// 'stretch' is default
+.flex-start    { align-items: flex-start }
+.flex-end      { align-items: flex-end }
+.flex-center   { align-items: center }
+.flex-baseline { align-items: baseline }
+
+// Horizontal alignment
+// 'flex-start' is default
+.flex-just-end     { justify-content: flex-end }
+.flex-just-center  { justify-content: center }
+.flex-just-between { justify-content: space-between }
+.flex-just-around  { justify-content: space-around }
+
+// Wrapping
+// 'nowrap' is default
+.flex-wrap   { flex-wrap: wrap }
+
+
+/* CHILD */
+
+// Ordering override
+.flex-first { order: -1 }
+.flex-last  { order: 1024 }
+
+// Grow/shrink behavior
+// Shrink (0 1 auto) is default
+.flex-shrink { flex: 0 1 auto }
+.flex-auto   { flex: 1 1 auto }
+.flex-grow   { flex: 1 0 auto }
+.flex-none   { flex: none }
+
+// Parent vertical alignment setting overrides
+.flex-self-start    { align-self: flex-start }
+.flex-self-end      { align-self: flex-end }
+.flex-self-center   { align-self: center }
+.flex-self-baseline { align-self: baseline }
+.flex-self-stretch  { align-self: stretch }

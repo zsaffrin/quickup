@@ -1,0 +1,32 @@
+{
+  "name": "Quickup",
+  "version": "1.0.0",
+  "description": "Basic CSS layout structure and utilities for rapid deployment",
+  "main": "index.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsaffrin/quickup.git"
+  },
+  "keywords": [
+    "CSS",
+    "Sass",
+    "SCSS",
+    "OOCSS",
+    "gulp"
+  ],
+  "author": "Zach Saffrin <zach@zachsaffrin.com> (http://zachsaffrin.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zsaffrin/quickup/issues"
+  },
+  "homepage": "https://github.com/zsaffrin/quickup#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4"
+  }
+}
